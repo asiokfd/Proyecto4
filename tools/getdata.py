@@ -16,7 +16,8 @@ def texto():
 
 def textoxnombre(name):
     """
-    Función que devuelve todos los textos de una persona
+    Función que devuelve todos los textos de una persona, pongo un regex para que el usuario pueda poner el nombre incompleto, en adelante
+    en todas las que pida el nombre, será si lo contiene.
     """
     query = {"Nombre": {"$regex" : f"{name}"}}
     textos = list(collection.find(query,{"_id": 0}))
