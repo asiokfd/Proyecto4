@@ -1,4 +1,4 @@
-import TextBlob
+from textblob import TextBlob
 #@fer ;)
 
 

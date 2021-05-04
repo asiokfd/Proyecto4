@@ -20,7 +20,7 @@ def index():
     )
     return md_template
 
-# consultas simples (6)
+
 @app.route("/texto") #todos los textos
 def texto():
     texto = get.texto()

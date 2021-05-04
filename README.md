@@ -16,7 +16,7 @@ Endpoint
 - @Nombre: el nombre del autor, cuanto m&aacute;s completo mejor
 - @partido: su filicaci&oacute;n pol&iacute;tica, se recomienda el uso de siglas en may&uacute;sculas
 - @tipo: el tipo de texto
-- @claves: palabras claves que puedan facilitar su localizaci&oacuten
+- @claves: palabras claves que puedan facilitar su localizaci&oacute;n
 
 #### M&eacute;todo @GET para pedir datos:
 Endpoints
@@ -43,6 +43,16 @@ Primero he conseguido los datos scrapeando algunas p&aacute;ginas y despu&eacute
 ## Paso 3 An&aacute;lisis del sentimiento:
     
 He extraido los datos de la api y posteriormente he realizado un an&aacute;lisis con el uso de la libreria sentiment_analysis_spanish
+
+
+### Contenido y estructura:
+- Archivo yml con el entorno y un requirements con las librer&iacuteas instaladas
+- Archivo gitignore con los documentos a ignorar.
+- Este Readme
+- Ejecutable con la api
+- Carpeta Tools con las funciones utilizadas por la api
+- Carpeta Config con la configuraci&oacute;n inicial de la api
+- Carpeta src con 2 jupyters con el proceso de carga de datos y an&aacute;lisis de sentimiento y 2    ejecutables de python con las funciones utilizadas
     
     
 ### Recursos y documentación

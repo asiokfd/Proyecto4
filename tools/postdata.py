@@ -12,7 +12,7 @@ def insertartexto(texto, nombre, partido, tipo, claves, año):
     collection.insert_one(dict_insert)
 
 
-def insertartextos(lista, nombre, partido, tipo, claves, año):
+def insertartextos(lista, nombre, partido, tipo, claves, año): # esto no he conseguido que me funcione como quiero.
     dict_insert = [{"Texto": lista[i],
     "Nombre": nombre,
     "Partido": partido,

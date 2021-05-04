@@ -1,6 +1,6 @@
 from config.configuration import db, collection
 
-# consultas simples (6)
+
 def texto():
     """
     Función que devuelve toda la coleccion
@@ -86,7 +86,7 @@ def textoxnombreytipo(name, tipo):
 
 def textoxnombreyclave(name, clave):
     """
-    Función que devuelve todas los textos de una persona y un tipo determinado
+    Función que devuelve todas los textos de una persona y una palabra clave
     """
     query = {"Nombre": {"$regex" : f"{name}"}}
     query2= {"Keywords": f"{clave}"}
